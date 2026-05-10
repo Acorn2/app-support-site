@@ -6,52 +6,223 @@
     <title>Acorn2 App Support</title>
     <meta
       name="description"
-      content="Support and privacy pages for Acorn2 apps published on the App Store."
+      content="Official support, privacy, and review links for Acorn2 iOS apps."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <main class="shell">
-      <section class="hero">
-        <p class="eyebrow">Independent App Support</p>
-        <h1>Support pages for Acorn2 apps</h1>
-        <p class="lead">
-          This public site hosts the support and privacy pages required for App
-          Store Connect submissions and ongoing user support.
-        </p>
-        <div class="action-row">
-          <a class="button-link" href="mailto:hkyy521@163.com">Contact Support</a>
-          <a class="ghost-link" href="https://github.com/Acorn2/app-support-site">
-            View GitHub Repository
+    <main class="shell shell-wide">
+      <header class="site-header">
+        <a class="brand" href="./index.html">
+          <span class="brand-orb">A</span>
+          <span class="brand-copy">
+            <strong>Acorn2</strong>
+            <small>Official App Support</small>
+          </span>
+        </a>
+        <div class="header-links">
+          <a class="header-link" href="mailto:hkyy521@163.com">Email Support</a>
+          <a
+            class="header-link"
+            href="https://github.com/Acorn2/app-support-site"
+          >
+            GitHub
           </a>
         </div>
+      </header>
+
+      <section class="hero hero-home">
+        <div class="hero-copy">
+          <p class="eyebrow">Official iOS App Support</p>
+          <h1>A support directory built for current and future Acorn2 apps.</h1>
+          <p class="lead">
+            This homepage is not just for one release. It is the long-term
+            support hub for every Acorn2 app, with dedicated support pages,
+            privacy policies, and submission-ready links that can keep growing
+            as more apps go live.
+          </p>
+          <div class="action-row">
+            <a class="button-link" href="#app-directory">Browse App Directory</a>
+            <a class="ghost-link" href="mailto:hkyy521@163.com">Contact Publisher</a>
+          </div>
+          <ul class="fact-row">
+            <li>Supports multiple app listings</li>
+            <li>One support page + one privacy page per app</li>
+            <li>Replies in 3 to 5 business days</li>
+          </ul>
+        </div>
+
+        <aside class="hero-panel">
+          <p class="panel-kicker">Submission Structure</p>
+          <h2>One repeatable pattern for every app</h2>
+          <p class="panel-copy">
+            Each new app can follow the same folder and URL model, so future App
+            Store Connect submissions stay consistent and easy to maintain.
+          </p>
+          <div class="route-list">
+            <div class="route-card">
+              <span class="route-label">Support Page Pattern</span>
+              <div class="route-url">/app-name/</div>
+            </div>
+            <div class="route-card">
+              <span class="route-label">Privacy Page Pattern</span>
+              <div class="route-url">/app-name/privacy.html</div>
+            </div>
+            <div class="route-card">
+              <span class="route-label">Current Example</span>
+              <a class="route-url" href="https://acorn2.github.io/app-support-site/kindred/">
+                https://acorn2.github.io/app-support-site/kindred/
+              </a>
+            </div>
+          </div>
+        </aside>
       </section>
 
-      <section class="card-grid">
-        <article class="app-card">
-          <p class="app-kicker">Available now</p>
-          <h2>Kindred</h2>
-          <p>
-            A gentle relationship reminder app that helps people reconnect with
-            the ones who matter.
+      <section class="section-heading" id="app-directory">
+        <div>
+          <p class="eyebrow">App Directory</p>
+          <h2>Current apps and reserved positions for future releases</h2>
+        </div>
+        <p class="section-copy">
+          The homepage now works like a scalable app registry: live apps can
+          expose real support links immediately, while future app slots stay
+          visually ready for the next submission.
+        </p>
+      </section>
+
+      <section class="directory-grid">
+        <article class="app-card app-spotlight app-directory-card">
+          <div class="app-card-top">
+            <div class="app-icon">K</div>
+            <span class="status-pill status-live">Live</span>
+          </div>
+          <p class="app-kicker">Available Now</p>
+          <h3>Kindred</h3>
+          <p class="card-body">
+            A relationship reminder app that helps people stay connected to
+            friends and family in a gentler, lower-pressure way.
           </p>
+          <div class="chip-row">
+            <span class="chip">Local-first</span>
+            <span class="chip">iPhone</span>
+            <span class="chip">English / 简体中文</span>
+          </div>
+          <div class="app-link-list">
+            <div class="inline-meta">
+              <span class="inline-label">Support</span>
+              <a class="inline-link" href="./kindred/index.html">/kindred/</a>
+            </div>
+            <div class="inline-meta">
+              <span class="inline-label">Privacy</span>
+              <a class="inline-link" href="./kindred/privacy.html">
+                /kindred/privacy.html
+              </a>
+            </div>
+          </div>
           <div class="link-row">
-            <a href="./kindred/index.html">Support</a>
-            <a href="./kindred/privacy.html">Privacy</a>
+            <a class="text-link" href="./kindred/index.html">Support page</a>
+            <a class="text-link" href="./kindred/privacy.html">Privacy policy</a>
           </div>
         </article>
 
-        <article class="app-card">
-          <p class="app-kicker">Publisher</p>
-          <h2>Acorn2</h2>
-          <p>
-            For App Store review, user support, or privacy questions, please
-            contact us by email. We aim to respond within 3 to 5 business days.
-          </p>
-          <div class="link-row">
-            <a href="mailto:hkyy521@163.com">hkyy521@163.com</a>
-            <a href="https://github.com/Acorn2/app-support-site">github.com/Acorn2/app-support-site</a>
+        <article class="app-card app-directory-card app-placeholder">
+          <div class="app-card-top">
+            <div class="app-icon app-icon-muted">+</div>
+            <span class="status-pill status-draft">Reserved</span>
           </div>
+          <p class="app-kicker">Future App Slot</p>
+          <h3>Next iOS App</h3>
+          <p class="card-body">
+            This position is intentionally reserved for the next app that needs
+            a technical support URL in App Store Connect.
+          </p>
+          <div class="app-link-list">
+            <div class="inline-meta">
+              <span class="inline-label">Support</span>
+              <span class="inline-link inline-link-muted">/next-app/</span>
+            </div>
+            <div class="inline-meta">
+              <span class="inline-label">Privacy</span>
+              <span class="inline-link inline-link-muted">/next-app/privacy.html</span>
+            </div>
+          </div>
+          <div class="chip-row">
+            <span class="chip">Reserved layout slot</span>
+            <span class="chip">Add app icon and summary</span>
+          </div>
+        </article>
+
+        <article class="app-card app-directory-card app-placeholder">
+          <div class="app-card-top">
+            <div class="app-icon app-icon-muted">+</div>
+            <span class="status-pill status-draft">Reserved</span>
+          </div>
+          <p class="app-kicker">Future App Slot</p>
+          <h3>Another Upcoming App</h3>
+          <p class="card-body">
+            Keep extra capacity on the homepage so adding more apps later feels
+            like extending a system, not redesigning the whole page.
+          </p>
+          <div class="app-link-list">
+            <div class="inline-meta">
+              <span class="inline-label">Support</span>
+              <span class="inline-link inline-link-muted">/future-app/</span>
+            </div>
+            <div class="inline-meta">
+              <span class="inline-label">Privacy</span>
+              <span class="inline-link inline-link-muted">/future-app/privacy.html</span>
+            </div>
+          </div>
+          <div class="chip-row">
+            <span class="chip">Same support template</span>
+            <span class="chip">Same privacy structure</span>
+          </div>
+        </article>
+      </section>
+
+      <section class="section-heading">
+        <div>
+          <p class="eyebrow">Scaling Rules</p>
+          <h2>A homepage pattern that can grow with the app lineup</h2>
+        </div>
+        <p class="section-copy">
+          Future additions should be simple: create a folder, add support and
+          privacy pages, then surface the new app card on this homepage.
+        </p>
+      </section>
+
+      <section class="support-grid">
+        <article class="support-card">
+          <p class="app-kicker">1. Add App Folder</p>
+          <h3>Create a dedicated app route</h3>
+          <p class="card-body">
+            Each app should have its own folder such as `/kindred/` or
+            `/next-app/`, so the support URL is stable and easy to submit.
+          </p>
+        </article>
+
+        <article class="support-card">
+          <p class="app-kicker">2. Pair Support + Privacy</p>
+          <h3>Keep the structure consistent</h3>
+          <p class="card-body">
+            Every app entry should include both a support page and a privacy
+            policy page, following the same naming pattern across the site.
+          </p>
+        </article>
+
+        <article class="support-card">
+          <p class="app-kicker">3. Expose It On Home</p>
+          <h3>Make the directory the source of truth</h3>
+          <p class="card-body">
+            The homepage should always show which apps are live, which slots are
+            reserved, and where each app’s support and privacy URLs live.
+          </p>
         </article>
       </section>
     </main>

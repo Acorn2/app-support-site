@@ -8,23 +8,59 @@
       name="description"
       content="Official privacy policy for Kindred by Acorn2."
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
     <main class="shell">
-      <nav class="top-nav">
-        <a href="./index.html">Support</a>
-        <a href="../index.html">All Apps</a>
-      </nav>
+      <header class="site-header">
+        <a class="brand" href="./index.html">
+          <span class="brand-orb">K</span>
+          <span class="brand-copy">
+            <strong>Kindred</strong>
+            <small>Privacy Policy</small>
+          </span>
+        </a>
+        <div class="header-links">
+          <a class="header-link" href="./index.html">Support</a>
+          <a class="header-link" href="../index.html">All Apps</a>
+        </div>
+      </header>
 
-      <section class="hero">
-        <p class="eyebrow">Privacy Policy</p>
-        <h1>Kindred keeps your relationship data local by default</h1>
-        <p class="lead">
-          Effective date: May 10, 2026. Kindred is designed as a local-first
-          app. The goal is to help you remember important people without
-          collecting more data than necessary.
-        </p>
+      <section class="hero hero-product">
+        <div class="hero-copy">
+          <p class="eyebrow">Privacy Policy</p>
+          <h1>Kindred keeps relationship data local by default.</h1>
+          <p class="lead">
+            Effective date: May 10, 2026. Kindred is designed to help users
+            remember important people without collecting more personal data than
+            necessary.
+          </p>
+        </div>
+
+        <aside class="hero-panel">
+          <p class="panel-kicker">Privacy Snapshot</p>
+          <h2>At a glance</h2>
+          <div class="meta-list">
+            <div class="meta-item">
+              <p class="meta-label">Storage Model</p>
+              <div class="meta-value">Local-first by default</div>
+            </div>
+            <div class="meta-item">
+              <p class="meta-label">May Request</p>
+              <div class="meta-value">Notification permission for local reminders</div>
+            </div>
+            <div class="meta-item">
+              <p class="meta-label">Does Not Read</p>
+              <div class="meta-value">System contacts, WeChat data, call history</div>
+            </div>
+          </div>
+        </aside>
       </section>
 
       <section class="content-grid">
@@ -34,29 +70,29 @@
           <ol class="policy-list">
             <li>
               <h3>What Kindred does</h3>
-              <p>
+              <p class="card-body">
                 Kindred helps users keep track of important relationships and
                 receive gentle reminders when it may be time to reconnect.
               </p>
             </li>
             <li>
               <h3>Information you enter</h3>
-              <p>
+              <p class="card-body">
                 You may choose to enter names, relationship type, notes, phone
                 numbers, WeChat reference text, and reminder status.
               </p>
             </li>
             <li>
               <h3>How the information is used</h3>
-              <p>
-                This information is used only to save your records on device,
+              <p class="card-body">
+                This information is used only to save your records on-device,
                 calculate reminder timing, and provide contact entry points such
                 as phone or WeChat.
               </p>
             </li>
             <li>
               <h3>Local-first storage</h3>
-              <p>
+              <p class="card-body">
                 In the current version, relationship data and reminder status
                 are stored on your device by default. Kindred does not upload
                 your relationship records to a remote server by default.
@@ -64,7 +100,7 @@
             </li>
             <li>
               <h3>Permissions</h3>
-              <p>
+              <p class="card-body">
                 Kindred may request notification permission so the app can send
                 local reminder notifications. The current version does not need
                 contacts, microphone, photo library, location, or calendar
@@ -73,15 +109,15 @@
             </li>
             <li>
               <h3>No social tracking</h3>
-              <p>
+              <p class="card-body">
                 Kindred does not read your system contacts, WeChat data, call
-                history, or use your relationship information for advertising or
-                cross-app tracking.
+                history, and does not use your relationship information for
+                advertising or cross-app tracking.
               </p>
             </li>
             <li>
               <h3>Your control</h3>
-              <p>
+              <p class="card-body">
                 You can edit or delete your records in the app at any time. If
                 you remove data from the app, the local records on the device
                 are removed accordingly.
@@ -89,9 +125,9 @@
             </li>
             <li>
               <h3>Contact</h3>
-              <p>
-                If you have questions about this policy, contact:
-                <a href="mailto:hkyy521@163.com">hkyy521@163.com</a>
+              <p class="card-body">
+                If you have questions about this policy, contact
+                <a href="mailto:hkyy521@163.com">hkyy521@163.com</a>.
               </p>
             </li>
           </ol>
@@ -100,46 +136,47 @@
         <aside class="page-card">
           <p class="eyebrow">简体中文</p>
           <h2>隐私政策摘要</h2>
-          <ul class="meta-list">
-            <li class="meta-item">
+          <div class="meta-list">
+            <div class="meta-item">
               <p class="meta-label">数据原则</p>
-              <div class="meta-value">本地优先，默认不上传联系人和关系记录。</div>
-            </li>
-            <li class="meta-item">
+              <div class="meta-value">本地优先，默认不上传关系记录。</div>
+            </div>
+            <div class="meta-item">
               <p class="meta-label">不会读取</p>
               <div class="meta-value">系统通讯录、微信数据、通话记录。</div>
-            </li>
-            <li class="meta-item">
+            </div>
+            <div class="meta-item">
               <p class="meta-label">可能申请的权限</p>
               <div class="meta-value">通知权限，用于本地提醒。</div>
-            </li>
-            <li class="meta-item">
+            </div>
+            <div class="meta-item">
               <p class="meta-label">联系邮箱</p>
               <div class="meta-value">
                 <a href="mailto:hkyy521@163.com">hkyy521@163.com</a>
               </div>
-            </li>
-          </ul>
+            </div>
+          </div>
         </aside>
       </section>
 
-      <section class="page-card">
+      <section class="page-card bilingual-card">
         <p class="eyebrow">中文完整版</p>
         <h2>Kindred 隐私政策</h2>
-        <p>
+        <p class="card-body">
           生效日期：2026 年 5 月 10 日。Kindred 尊重并重视你的隐私。Kindred 是一款本地优先的关系提醒工具，
           设计原则是尽可能少地收集数据，并尽可能让与你的重要关系相关的信息只留在你的设备上。
         </p>
-        <p>
+        <p class="card-body">
           你可以主动在应用中填写联系人姓名或昵称、关系类型、备注、手机号、微信备注文字信息以及提醒状态。
-          这些信息仅用于在设备本地保存联系人记录、计算提醒时间、生成本地提醒通知，以及在你点击“现在联系”时提供电话或微信入口。
+          这些信息仅用于在设备本地保存联系人记录、计算提醒时间、生成本地提醒通知，以及在你点击相关入口时提供联系捷径。
         </p>
-        <p>
+        <p class="card-body">
           当前版本默认不会将你的联系人数据上传到远程服务器，也不会读取系统通讯录、微信数据、通话记录，
-          不会做广告投放、跨应用跟踪或第三方营销。
+          不会用于广告投放、跨应用跟踪或第三方营销。
         </p>
-        <p>
-          Kindred 可能会请求通知权限，用于发送温和的本地提醒。如果你拒绝通知权限，应用仍然可以继续使用，只是不会显示系统通知。
+        <p class="card-body">
+          Kindred 可能会请求通知权限，用于发送温和的本地提醒。如果你拒绝通知权限，应用仍然可以继续使用，
+          只是不会显示系统通知。
         </p>
         <p class="footer-note">
           如你对隐私政策有任何问题，请联系
